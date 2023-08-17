@@ -1,0 +1,66 @@
+body{
+    width: 100%;
+    margin: 0;
+    /*background-color: gray;*/
+    font-size: 25px;
+    font-family: 'Edu VIC WA NT Beginner', cursive;
+    font-family: 'Roboto', sans-serif;
+}
+header{
+    background-color: #364552;
+    color: white;
+    padding: 3rem 3rem;
+}
+
+#can, #neutro, #med{
+    color: bisque;
+    background-color: black;
+}
+article h2, p{
+    padding: 10px;
+}
+header h1{
+    font-size: 4rem;
+    text-align: center;
+    
+}
+.container{
+    width: 400px;
+    margin: 0 auto;
+}
+section article{
+    transition: box-shadow 0.3s linear;
+    background-color: #fff;
+    margin: 1rem 0;
+    border-radius: 0.5rem;
+    padding: 0.25rem 0;
+    cursor: pointer;
+} 
+section article:hover{
+    box-shadow: 0 0.1rem 0.4rem rgb(0,0,0,20);
+}
+footer p{
+    float: right;
+}
+footer{
+    background-color: #222;
+    padding: 3rem;
+    color: #fff;
+}
+footer p{
+    margin: 0px;
+    
+}
+footer a{
+    margin: 0px;
+    transition: color 0.3s ease;
+    color: #fff;
+    text-decoration: none;
+}
+footer a:hover{
+    color: blueviolet;
+}
+
+
+
+
